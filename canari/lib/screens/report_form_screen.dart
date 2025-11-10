@@ -232,7 +232,7 @@ class _ReportFormScreenState extends State<ReportFormScreen> {
                     firstDate: DateTime(2020),
                     lastDate: DateTime(2100),
                   );
-                  if (picked != null && picked != selectedDate) {
+                  if (picked != selectedDate) {
                     setState(() => selectedDate = picked);
                   }
                 },
